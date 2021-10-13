@@ -1,0 +1,35 @@
+---
+title: "Homework 5 NSF Computing Intervention - Optional Supplement"
+author: "YOUR NAME HERE"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## NSF Computing Intervention
+
+If needed, please review the two YouTube tutorials linked in Moodle under the homework for Week 4. Then answer the following questions.
+
+#### Question NSF 1. Consider the following R code: `dpois(x=5, lambda=2)`
+
+(a) What are the parameters in that line of code?
+
+
+(b) What are the arguments in that line of code?
+
+
+#### Question NSF 2. Are there default values for all the parameters in `dpois()`? Are there default values for *any* of the parameters in `dpois()`? If so, which ones? 
+
+
+
+#### Question NSF 3. `dpois(x=5, 2)` and `dpois(2, x=5)` give the same output. Why?
+
+
+
+#### Question NSF 4. `dpois(x=5, lambda=2)` and `dpois(x=5, lambda=2, log=FALSE)` give the same output. Why?
+
+
+
