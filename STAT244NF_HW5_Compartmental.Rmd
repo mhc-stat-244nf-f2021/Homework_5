@@ -83,9 +83,9 @@ HIV_sim_df$lambdaI[1] <- 0
 
 ## Edit the for loop below to complete you simulation
 for (i in 2:(t+1)){
+  HIV_sim_df$lambdaI[i] #<- ADD appropriate info here
   HIV_sim_df$S[i] #<- ADD appropriate info here
   HIV_sim_df$I[i] #<- ADD appropriate info here
-  HIV_sim_df$lambdaI[i] #<- ADD appropriate info here
 }
 
 ```
